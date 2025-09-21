@@ -8,6 +8,7 @@ namespace Denombrements
 {
     class Program
     {
+        //test
         static void Main(string[] args)
         {
             int c = 1;
@@ -24,9 +25,9 @@ namespace Denombrements
 
                 if (c == 1)
                 {
-                    Console.Write("nombre total d'éléments à gérer = "); // le nombre d'éléments à gérer
-                    int n = int.Parse(Console.ReadLine()); // saisir le nombre
-                                                           // calcul de r
+                    Console.Write("nombre total d'éléments à gérer = "); 
+                    int n = int.Parse(Console.ReadLine()); 
+                                                           
                     long r = 1;
                     for (int k = 1; k <= n; k++)
                         r *= k;
